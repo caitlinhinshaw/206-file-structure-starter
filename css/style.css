@@ -2,67 +2,67 @@
 /* CSS Document */
 
 html, body{
-	margin:0px;
-	background:url(symphony.png) repeat;
+	margin: 0px;
+	background: url(/img/symphony.png) repeat;
 	/* Background image from http://subtlepatterns.com/ */
-	text-align:center;
+	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color:DimGray;
+	color: DimGray;
 }
-
-h1, h2, h3, h4{
-	
-}
-
-h1{
-	color:tomato;
-}
-
-h2{
-	color:Salmon;
-}
-
-a.eMail{
-	color:DarkSeaGreen;
-	text-decoration:none;
-}
-
-
-h1.Name{
-	margin-bottom:0px;
-	border:10px solid tomato;
-	padding:30px;
-	display:inline;
-}
-
-
-
 
 #wrapper{
-	margin-top:150px;
+	margin-top: 150px;
 }
 
-
-
-
-h2.title{
-	margin-top: 40px;
-    padding: 30px;
-}
-.Phone_Number{
-	color:DarkSeaGreen;
-}
-/* -------------- Quote Styles ------------*/
-.inspirational-quote-goes-here{
-	font-style:italic;
-	font-size:20px;
-	margin-top:50px;
-	line-height:30px;
-}
-
-
-.lineBreak{
+.line-break{
 	border: 1px solid grey;
     margin: 30px auto;
     width: 50%;
 }
+
+
+/* Heading Styles */
+
+h1 {
+	color: tomato;
+}
+
+h1.name {
+	margin-bottom: 0px;
+	border: 10px solid tomato;
+	padding: 30px;
+	display: inline;
+}
+
+h2 {
+	color: Salmon;
+}
+
+h2.title {
+	margin-top: 40px;
+    padding: 30px;
+}
+
+
+/* Contact Info Styles */
+
+.phone {
+	color: DarkSeaGreen;
+}
+
+a.email {
+	color: DarkSeaGreen;
+	text-decoration: none;
+}
+
+
+/* -------------- Quote Styles ------------*/
+
+.quote {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 30px;
+}
+
+

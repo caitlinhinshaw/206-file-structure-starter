@@ -21,7 +21,7 @@ html, body{
 }
 
 
-/* Heading Styles */
+/***** Heading Styles *****/
 
 h1 {
 	color: tomato;
@@ -44,7 +44,7 @@ h2.title {
 }
 
 
-/* Contact Info Styles */
+/***** Contact Info Styles *****/
 
 .phone {
 	color: DarkSeaGreen;
@@ -56,7 +56,7 @@ a.email {
 }
 
 
-/* -------------- Quote Styles ------------*/
+/***** Quote Styles *****/
 
 .quote {
 	font-style: italic;
